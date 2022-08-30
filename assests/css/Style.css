@@ -5,12 +5,6 @@
     font-family: sans-serif;
 
 }
-/*.hero{
-    width: 100%;
-    height: 100vh;
-}*/
-/*position - fixed,absolute,relative,sticky,static*/
-/* display - block,inline,inline-block,flex,grid,inline-grid,flexbox*/
 
 .navbar{
     position: fixed;
@@ -21,7 +15,7 @@
     margin: auto;
     display: flex;
     justify-content: flex-end;
-    background-color: #335fac;
+    background-color: #0e2753;
     z-index: 1;
 }
 body{
@@ -106,5 +100,16 @@ p{
     font-size: 20px;
 }
 
+#About {
+    height: auto;
+    display: flex;
+    background-color: #d1d8e0;
+}
+
+#about-desc {
+    position: relative;
+    margin-right: 70px;
+    justify-content: flex-end;
+}
 
 
