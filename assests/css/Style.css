@@ -1,4 +1,6 @@
-
+main{
+    background-color: rgb(3,13,28);
+}
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +15,9 @@
     width: 100%;
     height: auto;
     margin: auto;
-    display: flex;
+
     justify-content: flex-end;
-    background-color: #0e2753;
+    color: rgb(3,13,28);
     z-index: 1;
 }
 body{
@@ -49,7 +51,7 @@ nav ul li a:hover{
 /*home section styling*/
 .Home{
     display: flex;
-
+    background-color: rgb(31,32,62);
     width: 100%;
     height: 100vh;
 }
@@ -57,20 +59,24 @@ nav ul li a:hover{
     margin-left: 8%;
     margin-top: 13%;
 }
-h3{
-    font-size: 30px;
-    font-family: Inter;
-    margin-bottom: 20px;
+.container2{
+    margin-left: 8%;
+    margin-top: 5%;
 }
-h5{
-    font-size: 15px;
-    font-family: Gideon Roman;
-}
+
 h1{
     font-size: 50px;
     font-family: Kaisei Opti;
     margin-bottom: 20px;
     padding: 20px;
+}
+
+h3{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 30px;
 }
 p{
     font-family: Inter;
@@ -96,20 +102,28 @@ p{
     transition: bottom 1s,left 1s;
     border-radius: 50%;
 }
+.about-portrait{
+    position: absolute;
+    left: 115%;
+    bottom:190px;
+    transform: translateX(-60%);
+    transition: bottom 1s,left 1s;
+
+}
 .home-para{
     font-size: 20px;
 }
 
 #About {
+    background-color: rgb(31,32,62);
     height: auto;
-    display: flex;
-    background-color: #d1d8e0;
+    justify-content: flex-end;
 }
+
 
 #about-desc {
     position: relative;
     margin-right: 70px;
-    justify-content: flex-end;
 }
 
 
