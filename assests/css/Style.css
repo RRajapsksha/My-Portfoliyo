@@ -113,7 +113,7 @@ p{
 }
 #About {
     background-color: rgb(31,32,62);
-    height: auto;
+    height: 450px;
     justify-content: flex-end;
 }
 
@@ -137,7 +137,26 @@ p{
 #Skills {
     background-color: rgb(31,32,62);
     height: auto;
-    justify-content: flex-end;
+}
+.java{
+    position: absolute;
+    right: 1000px;
+}
+.figma{
+
+    position: absolute;
+    right: 650px;
+
 }
 
+.javafx{
 
+    position: absolute;
+    right: 250px;
+
+}
+
+.mysql{
+    bottom: 1000px;
+    right: 1000px;
+}
