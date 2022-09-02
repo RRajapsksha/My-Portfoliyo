@@ -160,3 +160,53 @@ p{
     bottom: 1000px;
     right: 1000px;
 }
+
+#Education {
+    background-color: rgb(31,32,62);
+    height: auto;
+    justify-content: flex-end;
+}
+
+.education{
+
+    position: absolute;
+    right: 650px;
+    border-radius: 50%;
+
+}
+
+.education2{
+    border-radius: 50%;
+
+}
+
+#Projects{
+    background-color: rgb(31,32,62);
+    height: auto;
+    justify-content: flex-end;
+}
+
+.project-portrait{
+    position: absolute;
+    top: 2300px;
+    right: 250px;
+}
+.assignment-portrait{
+    bottom: 5000px;
+}
+
+#Contact{
+    background-color: rgb(31,32,62);
+    height: auto;
+    justify-content: flex-end;
+}
+#Footer{
+    background-color: rgb(31,32,62);
+    /*height: auto;*/
+    /*justify-content: flex-end;*/
+}
+.footer_portrait{
+    position: absolute;
+    right: 650px;
+    background-color: rgb(31,32,62);
+}
