@@ -11,16 +11,19 @@ main{
 .navbar{
     position: absolute;
     top: 0;
-    left: 1000px;
+    left: 800px;
     width: 100%;
     height: 20px;
     margin: auto;
     justify-content: flex-end;
     z-index: 1;
+    background-color: rgb(31,32,62);
 }
+
 body{
     z-index: 0;
 }
+
 .logo{
     width: 50px;
     cursor: pointer;
@@ -46,6 +49,7 @@ nav ul li a{
 nav ul li a:hover{
     color: deeppink;
 }
+
 /*home section styling*/
 .Home{
     display: flex;
@@ -65,8 +69,8 @@ nav ul li a:hover{
 h1{
     font-size: 50px;
     font-family: Kaisei Opti;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 5px;
+    padding: 25px;
 }
 
 h3{
@@ -93,20 +97,20 @@ p{
 }
 
 .profile{
-    width: 700px;
+    width: 600px;
     height: 200px;
     position: absolute;
-    bottom: 90px;
+    bottom: 55px;
     right: 55px;
 
 }
 .home-portrait{
 
     height: 500px;
-    width: 455px;
+    width: 450px;
     position: absolute;
     left: 80%;
-    bottom: 15px;
+    bottom: 50px;
     transform: translateX(-60%);
     transition: bottom 1s,left 1s;
     border-radius: 50%;
@@ -200,6 +204,28 @@ p{
     height: auto;
     justify-content: flex-end;
 }
+
+.name{
+    position: absolute;
+    top: 3150px;
+    right: 610px;
+}
+.email{
+    position: absolute;
+    top: 3200px;
+    right: 610px;
+}
+.message{
+    position: absolute;
+    top: 3250px;
+    right: 590px;
+}
+.contact-portrait2{
+    position: absolute;
+    top: 3000px;
+    right: 350px;
+}
+
 #Footer{
     background-color: rgb(31,32,62);
     /*height: auto;*/
