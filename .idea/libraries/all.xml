@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="all" type="javaScript">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/fontawesome.min.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/regular.min.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/v4-shims.min.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/all.min.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/solid.min.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/brands.min.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/conflict-detection.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/all.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/v4-shims.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/fontawesome.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/regular.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/conflict-detection.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/brands.js" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/js/solid.js" />
+    </SOURCES>
+  </library>
+</component>

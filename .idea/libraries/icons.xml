@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="icons" type="javaScript">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/assests/fonts/metadata/icons.json" />
+      <root url="file://$PROJECT_DIR$/assests/fonts/metadata/shims.json" />
+    </SOURCES>
+  </library>
+</component>
