@@ -1,0 +1,38 @@
+#About {
+    background-color: rgb(31,32,62);
+    position: relative;
+    top: 100px;
+    margin-top: -24px;
+    width: 94vw;
+    left: 30px;
+    height: 500px;
+}
+
+.about-portrait{
+    position: absolute;
+    left: 57%;
+    bottom:65px;
+}
+
+.about-rec{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 710px;
+    top: 100px;
+    bottom: 100px;
+    background: rgba(47, 41, 41, 0.55);
+    border-radius: 40px;
+
+}
+
+.about-desc {
+    position: relative;
+    margin-right: 70px;
+}
+
+.about_container{
+    margin-left: 8%;
+    margin-top: 5%;
+    bottom: 65px;
+}

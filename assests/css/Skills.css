@@ -1,0 +1,36 @@
+#Skills {
+    background-color: rgb(31,32,62);
+    position: relative;
+    top: 80px;
+    margin-top: 5px;
+    width: 94vw;
+    left: 30px;
+    height: 500px;
+}
+.java{
+    position: absolute;
+    right: 1000px;
+}
+.figma{
+
+    position: absolute;
+    right: 650px;
+
+}
+
+.javafx{
+
+    position: absolute;
+    right: 250px;
+
+}
+
+.mysql{
+    bottom: 1100px;
+    right: 1000px;
+}
+
+.skills_container{
+    margin-left: 8%;
+    margin-top: 5%;
+}

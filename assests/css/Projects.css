@@ -1,0 +1,14 @@
+#Projects{
+    background-color: rgb(31,32,62);
+    height: auto;
+    justify-content: flex-end;
+}
+
+.project-portrait{
+    position: absolute;
+    top: 2300px;
+    right: 250px;
+}
+.assignment-portrait{
+    bottom: 5000px;
+}

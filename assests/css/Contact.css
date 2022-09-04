@@ -1,0 +1,26 @@
+#Contact{
+    background-color: rgb(31,32,62);
+    height: auto;
+    justify-content: flex-end;
+}
+
+.name{
+    position: absolute;
+    top: 3150px;
+    right: 610px;
+}
+.email{
+    position: absolute;
+    top: 3200px;
+    right: 610px;
+}
+.message{
+    position: absolute;
+    top: 3250px;
+    right: 590px;
+}
+.contact-portrait2{
+    position: absolute;
+    top: 3000px;
+    right: 350px;
+}
