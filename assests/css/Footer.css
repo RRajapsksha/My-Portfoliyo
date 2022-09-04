@@ -1,11 +1,13 @@
 
 #Footer{
     background-color: rgb(31,32,62);
-    /*height: auto;*/
-    /*justify-content: flex-end;*/
+    height: auto;
+    justify-content: flex-end;
 }
 .footer_portrait{
     position: absolute;
-    right: 650px;
+    top: 100px;
+    right: 250px;
     background-color: rgb(31,32,62);
 }
+
