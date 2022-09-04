@@ -1,9 +1,9 @@
 #Education {
     background-color: rgb(31,32,62);
     position: relative;
-    height: calc(100vh /6) ;
+    height: 650px ;
     width: 94vw;
-    top: 100px;
+    top: 185px;
     left: 30px;
     z-index:4;
 }

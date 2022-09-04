@@ -1,5 +1,6 @@
 main{
     background-color: rgb(3,13,28);
+    height: auto;
 }
 *{
     margin: 0;
