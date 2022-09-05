@@ -1,6 +1,11 @@
-main{
+#main{
     background-color: rgb(3,13,28);
-    height: 4600px;
+    /*height: 4600px;*/
+    position: relative;
+    top: 40px;
+    margin-top: -24px;
+    width: 100%;
+    height: 4300px;
 }
 *{
     margin: 0;

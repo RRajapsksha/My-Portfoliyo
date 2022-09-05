@@ -1,7 +1,7 @@
 #Contact{
     background-color: rgb(31,32,62);
     position: relative;
-    height: 900px ;
+    height: 600px ;
     width: 94vw;
     top: 280px;
     left: 30px;
@@ -27,4 +27,22 @@
     position: absolute;
     top: 200px;
     right: -300px;
+}
+
+.Contact_name{
+    position: absolute;
+    left: 8vw;
+    top: 250px;
+}
+
+.Contact_address{
+    position: absolute;
+    left: 9vw;
+    top: 380px;
+}
+
+.Contact_email{
+    position: absolute;
+    left: 8vw;
+    top: 510px;
 }

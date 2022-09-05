@@ -17,7 +17,7 @@
 .education2{
     border-radius: 50%;
     position: relative;
-    top: 70px;
+    top: 60px;
 
 }
 
@@ -67,14 +67,14 @@
 .school_2{
     position: absolute;
     left: 13vw;
-    top: 420px;
+    top: 410px;
     line-height: 88px;
     z-index: 6;
 }
 
 .next_ed{
     position: absolute;
-    left: 42vw;
+    left: 50vw;
     top: 220px;
     line-height: 88px;
     z-index: 6;
