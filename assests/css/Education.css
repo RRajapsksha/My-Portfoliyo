@@ -10,13 +10,81 @@
 
 .education{
 
-    position: absolute;
-    right: 650px;
     border-radius: 50%;
 
 }
 
 .education2{
     border-radius: 50%;
+    position: relative;
+    top: 70px;
 
+}
+
+.education3{
+
+    position: absolute;
+    right: 650px;
+    top: 250px;
+    border-radius: 50%;
+
+}
+
+.education4{
+    position: absolute;
+    right: 650px;
+    top: 430px;
+    border-radius: 50%;
+}
+
+.line_1{
+    position: relative;
+    width: 50vw;
+    height: 20px;
+    /*left: 27vw;*/
+    top: 475px;
+    background: url("../../assests/Line.png");
+
+    z-index: 6;
+}
+
+.school_1{
+    position: absolute;
+    left: 13vw;
+    top: 230px;
+    line-height: 88px;
+    z-index: 6;
+}
+
+.school_2{
+    position: absolute;
+    left: 13vw;
+    top: 450px;
+    line-height: 88px;
+    z-index: 6;
+}
+
+.school_2{
+    position: absolute;
+    left: 13vw;
+    top: 420px;
+    line-height: 88px;
+    z-index: 6;
+}
+
+.next_ed{
+    position: absolute;
+    left: 42vw;
+    top: 220px;
+    line-height: 88px;
+    z-index: 6;
+
+}
+
+.higher_ed{
+    position: absolute;
+    left: 50vw;
+    top: 410px;
+    line-height: 88px;
+    z-index: 6;
 }

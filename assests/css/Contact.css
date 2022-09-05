@@ -10,21 +10,21 @@
 
 .name{
     position: absolute;
-    top: 455px;
-    right: 310px;
+    top: 350px;
+    right: -50px;
 }
 .email{
     position: absolute;
-    top: 500px;
-    right: 314px;
+    top: 400px;
+    right: -50px;
 }
 .message{
     position: absolute;
-    top: 550px;
-    right: 290px;
+    top: 450px;
+    right: -78px;
 }
 .contact-portrait2{
     position: absolute;
-    top: 350px;
-    right: 50px;
+    top: 200px;
+    right: -300px;
 }

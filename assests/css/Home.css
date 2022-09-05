@@ -1,6 +1,6 @@
 main{
     background-color: rgb(3,13,28);
-    height: 4580px;
+    height: 4600px;
 }
 *{
     margin: 0;
@@ -94,6 +94,10 @@ h3{
 h2{
     font-size: 30px;
 }
+
+h3{
+    font-size: 20px;
+}
 p{
     font-family: Inter;
     font-size: 100%;
@@ -112,7 +116,7 @@ p{
 
 .profile{
     width: 600px;
-    height: 200px;
+    height: 100px;
     position: absolute;
     bottom: 55px;
     right: 100px;
@@ -120,7 +124,7 @@ p{
 }
 .home-portrait{
 
-    height: 500px;
+    height: 450px;
     width: 450px;
     position: absolute;
     left: 80%;

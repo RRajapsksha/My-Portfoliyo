@@ -1,5 +1,16 @@
 <component name="libraryTable">
   <library name="all" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/assests/fonts/js/all.js" />
+        <item url="file://$PROJECT_DIR$/assests/fonts/js/brands.js" />
+        <item url="file://$PROJECT_DIR$/assests/fonts/js/conflict-detection.js" />
+        <item url="file://$PROJECT_DIR$/assests/fonts/js/fontawesome.js" />
+        <item url="file://$PROJECT_DIR$/assests/fonts/js/regular.js" />
+        <item url="file://$PROJECT_DIR$/assests/fonts/js/solid.js" />
+        <item url="file://$PROJECT_DIR$/assests/fonts/js/v4-shims.js" />
+      </sourceFilesUrls>
+    </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/assests/fonts/js/fontawesome.min.js" />
       <root url="file://$PROJECT_DIR$/assests/fonts/js/regular.min.js" />
