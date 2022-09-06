@@ -17,7 +17,7 @@
 .education2{
     border-radius: 50%;
     position: relative;
-    top: 60px;
+    top: 95px;
 
 }
 
@@ -33,19 +33,8 @@
 .education4{
     position: absolute;
     right: 650px;
-    top: 430px;
+    top: 440px;
     border-radius: 50%;
-}
-
-.line_1{
-    position: relative;
-    width: 50vw;
-    height: 20px;
-    /*left: 27vw;*/
-    top: 475px;
-    background: url("../../assests/Line.png");
-
-    z-index: 6;
 }
 
 .school_1{
@@ -56,18 +45,13 @@
     z-index: 6;
 }
 
-.school_2{
-    position: absolute;
-    left: 13vw;
-    top: 450px;
-    line-height: 88px;
-    z-index: 6;
-}
+
+
 
 .school_2{
     position: absolute;
     left: 13vw;
-    top: 410px;
+    top: 420px;
     line-height: 88px;
     z-index: 6;
 }
@@ -84,7 +68,17 @@
 .higher_ed{
     position: absolute;
     left: 50vw;
-    top: 410px;
+    top: 430px;
     line-height: 88px;
     z-index: 6;
 }
+/*.line_1{*/
+/*    position: relative;*/
+/*    width: 100vw;*/
+/*    height: 100px;*/
+/*    left: 800px;*/
+/*    top: 850px;*/
+/*    background: url("../../assests/Line.png");*/
+
+/*    z-index: 6;*/
+/*}*/
