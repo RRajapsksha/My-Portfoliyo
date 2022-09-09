@@ -10,18 +10,18 @@
 
 .name{
     position: absolute;
-    top: 180px;
+    top: 150px;
     right: 250px;
 }
 .email{
     position: absolute;
-    top: 250px;
+    top: 220px;
     right: 250px;
 }
 .message{
     position: absolute;
-    top: 320px;
-    right: 230px;
+    top: 280px;
+    right: 227px;
 }
 .contact-portrait{
     position: absolute;
@@ -49,13 +49,19 @@
 
 .contact-rec {
     position: absolute;
-    width: 250px;
+    width: 300px;
     height: 250px;
     left: 50px;
     top: 145px;
     /*bottom: 500px;*/
     background: rgba(49, 50, 85, 100);
 
+}
+
+#Textarea{
+    position: absolute;
+    top: 455px;
+    right: 390px;
 }
 /*}*/
 
