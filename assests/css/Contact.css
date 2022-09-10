@@ -9,7 +9,7 @@
 }
 .img_container{
     margin-left: -3%;
-    margin-top: 0;
+    margin-top: -3px;
 }
 .name{
     position: absolute;
@@ -26,6 +26,9 @@
     top: 280px;
     right: 227px;
 }
+
+/*contact details*/
+
 .contact-portrait{
     position: absolute;
     top: 150px;
@@ -41,7 +44,7 @@
 .Contact_address{
     position: absolute;
     left: 9vw;
-    top: 350px;
+    top: 340px;
 }
 
 .Contact_email{
