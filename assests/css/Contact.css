@@ -73,8 +73,23 @@
 #Textarea{
     position: absolute;
     top: 455px;
-    right: 390px;
+    right: 370px;
 }
+
+#textName{
+    position: absolute;
+    top: 320px;
+    right: 375px;
+    height: 25px;
+}
+
+#textEmail{
+    position: absolute;
+    top: 395px;
+    right: 375px;
+    height: 25px;
+}
+
 /*}*/
 
 /*#Table{*/
