@@ -74,6 +74,8 @@
     position: absolute;
     top: 455px;
     right: 370px;
+    color: white;
+    background-color: rgba(25,10,35,0.75);
 }
 
 #textName{
@@ -81,6 +83,8 @@
     top: 320px;
     right: 375px;
     height: 25px;
+    color: white;
+    background-color: rgba(25,10,35,0.75);
 }
 
 #textEmail{
@@ -88,13 +92,16 @@
     top: 395px;
     right: 375px;
     height: 25px;
+    color: white;
+    background-color: rgba(25,10,35,0.75);
 }
 
 #button{
     position: absolute;
     top: 550px;
-    right: 480px;
-    width: 65px;
+    right: 475px;
+    width: 70px;
     color: #dcdcdc;
-    background-color: #282e6a;
+    height: 25px;
+    background-color: rgba(28,32,94,0.94);
 }
