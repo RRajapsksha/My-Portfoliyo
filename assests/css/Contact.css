@@ -74,7 +74,8 @@
     top: 455px;
     right: 370px;
     color: white;
-    background-color: rgba(25,10,35,0.75);
+    background-color: #342C2C;
+
 }
 
 #textName{
@@ -83,7 +84,8 @@
     right: 375px;
     height: 25px;
     color: white;
-    background-color: rgba(25,10,35,0.75);
+    background-color: #342C2C;
+
 }
 
 #textEmail{
@@ -92,7 +94,7 @@
     right: 375px;
     height: 25px;
     color: white;
-    background-color: rgba(25,10,35,0.75);
+    background-color: #342C2C;
 }
 
 #button{
@@ -102,5 +104,6 @@
     width: 70px;
     color: #dcdcdc;
     height: 25px;
-    background-color: rgba(28,32,94,0.94);
+    background-color: #24265A;
+    border: #24265A;
 }
