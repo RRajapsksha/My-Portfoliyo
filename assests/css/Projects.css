@@ -21,10 +21,10 @@
 }
 
 .project_line{
-    border-left: 5px;
-    height: 500px;
+    border-left: 5px solid white;
+    height: 800px;
     position: absolute;
     left: 50%;
     margin-left: 3px;
-    top: 400px;
+    top: 200px;
 }
