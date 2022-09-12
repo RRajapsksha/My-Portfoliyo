@@ -17,7 +17,7 @@
 .education2{
     border-radius: 50%;
     position: relative;
-    top: 95px;
+    top: -61px;
 
 }
 
@@ -70,9 +70,17 @@
     z-index: 6;
 }
 .education_line{
-    border-left: 5px solid white;
-    height: 250px;
+    border-left:2px solid white;
+    height: 150px;
     position: relative;
-    /*left: 50%;*/
-    top: 100px;
+    left: 2%;
+    top: -5px;
+}
+.education_line_a{
+
+    border-left:2px solid white;
+    height: 153px;
+    position: absolute;
+    left: 48.5%;
+    top: 300px;
 }
