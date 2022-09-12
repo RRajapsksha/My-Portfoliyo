@@ -69,13 +69,10 @@
     line-height: 88px;
     z-index: 6;
 }
-/*.line_1{*/
-/*    position: relative;*/
-/*    width: 100vw;*/
-/*    height: 100px;*/
-/*    left: 800px;*/
-/*    top: 850px;*/
-/*    background: url("../../assests/Line.png");*/
-
-/*    z-index: 6;*/
-/*}*/
+.education_line{
+    border-left: 5px solid white;
+    height: 250px;
+    position: relative;
+    /*left: 50%;*/
+    top: 100px;
+}
