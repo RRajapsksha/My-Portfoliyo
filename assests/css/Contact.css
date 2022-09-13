@@ -61,8 +61,8 @@
 
 .contact-rec {
     position: absolute;
-    width: 300px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
     left: 50px;
     top: 145px;
     background: rgba(49, 50, 85, 100);
@@ -72,7 +72,7 @@
 #Textarea{
     position: absolute;
     top: 455px;
-    right: 370px;
+    right: 240px;
     color: white;
     background-color: #342C2C;
 
@@ -81,7 +81,7 @@
 #textName{
     position: absolute;
     top: 320px;
-    right: 375px;
+    right: 240px;
     height: 25px;
     color: white;
     background-color: #342C2C;
@@ -91,7 +91,7 @@
 #textEmail{
     position: absolute;
     top: 395px;
-    right: 375px;
+    right: 240px;
     height: 25px;
     color: white;
     background-color: #342C2C;
@@ -99,8 +99,8 @@
 
 #button{
     position: absolute;
-    top: 550px;
-    right: 475px;
+    top: 600px;
+    right: 400px;
     width: 70px;
     color: #dcdcdc;
     height: 25px;
