@@ -49,16 +49,28 @@
 
 .Contact_email{
     position: absolute;
-    left: 9vw;
+    left: 14.5vw;
     top: 470px;
+    font-size: 15px;
 }
-
+.Contact_email2{
+    position: absolute;
+    left: 14.5vw;
+    top: 510px;
+    font-size: 15px;
+}
 .Contact_mobile{
     position: absolute;
-    left:10.5vw;
+    left:14.5vw;
     top: 600px;
+    font-size: 15px;
 }
-
+.Contact_mobile1{
+    position: absolute;
+    left:14.5vw;
+    top: 650px;
+    font-size: 15px;
+}
 .contact-rec {
     position: absolute;
     width: 450px;
