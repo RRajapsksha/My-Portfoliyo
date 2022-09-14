@@ -27,3 +27,15 @@
     left: 50%;
     top: 200px;
 }
+.project-rec{
+
+    position: absolute;
+    width: 370px;
+    height: 350px;
+    left: 800px;
+    top: 400px;
+    bottom: 100px;
+    background: #494141;
+    border-radius: 40px;
+
+}
