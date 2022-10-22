@@ -39,3 +39,39 @@
     border-radius: 40px;
 
 }
+
+.caseBasic{
+    color: white;
+}
+
+.basic{
+    position: absolute;
+    left: 70px;
+    top: 450px;
+    color: white;
+    font-size: 15px;
+}
+
+.transition{
+    position: absolute;
+    left: 70px;
+    top: 500px;
+    color: white;
+    font-size: 15px;
+}
+
+.animation{
+    position: absolute;
+    left: 70px;
+    top: 550px;
+    color: white;
+    font-size: 15px;
+}
+
+.assignment{
+    position: absolute;
+    left: 0;
+    top: 350px;
+    color: yellow;
+    font-size: 25px;
+}
