@@ -9,7 +9,8 @@
 }
 .java{
     position: absolute;
-    right: 1000px;
+    right: 1048px;
+    top: 200px;
 }
 .figma{
 
@@ -28,9 +29,23 @@
 .mysql{
     bottom: 1100px;
     right: 1000px;
+    top: 100px;
 }
 
 .skills_container{
     margin-left: 8%;
     margin-top: 5%;
+}
+
+.Skills_rec{
+
+    position: relative;
+    width: 180px;
+    height: 175px;
+    left: 100px;
+    top: 35px;
+    bottom: 40px;
+    background: #1C5270;
+    border-radius: 0;
+
 }
