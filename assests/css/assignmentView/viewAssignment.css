@@ -1,0 +1,319 @@
+main{
+    position: relative;
+    width: 100%;
+    height: 1514px;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 1.56;
+    border-radius: 30px;
+}
+
+main>section:first-child{
+    position: absolute;
+    width: 100%;
+    height: 1514px;
+    background: rgba(154, 144, 144, 0.8);
+    opacity: 1.56;
+    border-radius: 30px;
+}
+
+/*Assignment of css*/
+main>section:first-child>h3{
+    position: absolute;
+    width: 442px;
+    height: 58px;
+    left: 3vw;
+    top: -16px;
+    font-family: 'Irish Grover',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 58px;
+    color: #000000;
+}
+
+/*Black line*/
+main>section:first-child>div:nth-child(2){
+
+    position: absolute;
+    width: 10vw;
+    height: 0px;
+    left: 8vw;
+    top: 64px;
+    border: 3px solid #0D0D0D;
+    transform: rotate(-0.95deg);
+    background: url("../../../asserts/AssignmentImages/Line 34.png");
+    background-size:cover;
+    background-position: center;
+}
+
+/*Basic cases topic*/
+main>section:first-child>section:nth-child(3)>h3:first-child{
+    position: absolute;
+    width: 391px;
+    height: 70px;
+    left: 38vw;
+    top: 43px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
+
+/*Basic 1*/
+main>section:first-child>section:nth-child(3)>a:nth-child(2)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 25vh;
+    left: 9vw;
+    top: 165px;
+    background: url("../../../asserts/AssignmentImages/Basic1.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+}
+
+/*Basic 3*/
+main>section:first-child>section:nth-child(3)>a:nth-child(3)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 25vh;
+    left: 21vw;
+    top: 249px;
+    background: url("../../../asserts/AssignmentImages/Basic3.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
+
+/*Basic 4*/
+main>section:first-child>section:nth-child(3)>a:nth-child(4)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 25vh;
+    left: 35vw;
+    top: 315px;
+    background: url("../../../asserts/AssignmentImages/Basic4.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 5;
+}
+
+
+/*Basic 5*/
+main>section:first-child>section:nth-child(3)>a:nth-child(5)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 25vh;
+    left: 51vw;
+    top: 256px;
+    background: url("../../../asserts/AssignmentImages/Basic5.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 4;
+}
+
+
+/*Basic 6*/
+main>section:first-child>section:nth-child(3)>a:nth-child(6)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 25vh;
+    left: 64vw;
+    top: 174px;
+    background: url("../../../asserts/AssignmentImages/Basic6.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
+
+/*Transition cases topic*/
+main>section:first-child>section:nth-child(4)>h3:first-child{
+    position: absolute;
+    width: 391px;
+    height: 70px;
+    left: 35vw;
+    top: 457px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
+
+
+/*Transition 2*/
+main>section:first-child>section:nth-child(4)>a:nth-child(2)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 40vw;
+    height: 29vh;
+    left: 29vw;
+    top: 562px;
+    background: url("../../../asserts/AssignmentImages/Transition2.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
+/*Animation cases topic*/
+main>section:first-child>section:nth-child(5)>h3:first-child{
+    position: absolute;
+    width: 391px;
+    height: 70px;
+    left: 35vw;
+    top: 697px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
+
+/*Animation 1*/
+main>section:first-child>section:nth-child(5)>a:nth-child(2)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 21vw;
+    height: 29vh;
+    left: 17vw;
+    top: 798px;
+    background: url("../../../asserts/AssignmentImages/Animation1.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
+
+/*Animation 2*/
+main>section:first-child>section:nth-child(5)>a:nth-child(3)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 21vw;
+    height: 29vh;
+    left: 35vw;
+    top: 870px;
+    background: url("../../../asserts/AssignmentImages/Animation2.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 4;
+}
+
+/*Animation 3*/
+main>section:first-child>section:nth-child(5)>a:nth-child(4)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 21vw;
+    height: 29vh;
+    left: 54vw;
+    top: 799px;
+    background: url("../../../asserts/AssignmentImages/Animation3.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
+
+/*Assignment of js*/
+main>section:nth-child(2)>h3{
+    position: absolute;
+    width: 442px;
+    height: 58px;
+    left: 3vw;
+    top: 1043px;
+    font-family: 'Irish Grover',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 58px;
+    color: #000000;
+}
+
+/*Black line*/
+main>section:nth-child(2)>div:nth-child(2){
+
+    position: absolute;
+    width: 10vw;
+    height: 0px;
+    left: 8vw;
+    top: 1120px;
+    border: 3px solid #0D0D0D;
+    transform: rotate(-0.95deg);
+    background: url("../../../asserts/AssignmentImages/Line 34.png");
+    background-size:cover;
+    background-position: center;
+}
+
+/*Calculator topic*/
+main>section:nth-child(2)>section:nth-child(3)>h3{
+    position: absolute;
+    width: 391px;
+    height: 70px;
+    left: 5vw;
+    top: 1120px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
+
+/*calculator*/
+main>section:nth-child(2)>section:nth-child(3)>a:nth-child(2)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 22vw;
+    height: 35vh;
+    left: 5vw;
+    top: 1229px;
+    background: url("../../../asserts/AssignmentImages/Calculator.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
+
+
+/*POS system topic*/
+main>section:nth-child(2)>section:nth-child(4)>h3{
+    position: absolute;
+    width: 29vw;
+    height: 70px;
+    left: 62vw;
+    top: 1120px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
+
+/*Pos system*/
+main>section:nth-child(2)>section:nth-child(4)>a:nth-child(2)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 43vw;
+    height: 35vh;
+    left: 50vw;
+    top: 1229px;
+    background: url("../../../asserts/AssignmentImages/SPA.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
