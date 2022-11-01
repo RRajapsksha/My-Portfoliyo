@@ -15,7 +15,7 @@
 </head>
 <body>
 <header >
-    <nav class="navbar navbar-expand-lg bg-light shadow-sm p-3 mb-5 bg-body rounded">
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm p-3 mb-5 bg-body rounded ">
         <div class="container-fluid"  >
 
             <a class="navbar-brand fw-bold" href="#"></a>
@@ -25,10 +25,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" >
-                    <a class="nav-link" href="index.html">Dashboard</a>
-                    <a class="nav-link active" aria-current="page" href="#">Customers</a>
-                    <a class="nav-link" href="#">Orders</a>
-                    <a class="nav-link" href="#">Items</a>
+                    <a class="nav-link" href="index.html" style="color: #0a53be">Dashboard</a>
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #0a53be">Customers</a>
+                    <a class="nav-link" href="#" style="color: #0a53be">Orders</a>
+                    <a class="nav-link" href="#" style="color: #0a53be">Items</a>
                 </div>
             </div>
         </div>
@@ -45,18 +45,62 @@
 
     <div class="container-fluid position-relative" style="bottom: 34px">
         <div class="d-sm-table-row flex-row mb-3 justify-content-sm-between d-md-flex">
-            <div style="width: 600px; border-radius: 10px; height: 400px; box-shadow:0 0 5px 0;" >
+
+            <div style="width: 600px; border-radius: 10px; height: 450px; box-shadow:0 0 5px 0;" >
+
                 <div class="title-bar" style="background-color: #2855ec; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
                     <h3 class="fw-semibold gx-5 m-0" style="padding: 10px; color: white">Add New Customer</h3>
                 </div>
+
                 <div class="mb-3 w-75 px-4 pt-5 d-inline-block">
                     <label for="id" class="form-label"> Customer Id : </label>
                     <input type="text" class="form-control" id= "id" placeholder="ID">
                 </div>
-                <div class="mb-3 px-4 pt-2 d-inline-block" style="width:445px;">
+
+                <div class="mb-3 px-4 pt-1 d-inline-block" style="width:445px;">
                     <label for="name" class="form-label">Name :</label>
                     <input type="text" class="form-control" id="name" placeholder="Your Name">
                 </div>
+
+                <div class="mb-3 w-75 px-4 pt-1 d-inline-block">
+                    <label for="email" class="form-label"> Email :</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+
+                <div class="mb-3 w-75 px-4 pt-1 d-inline-block" style="width: 330px;">
+                    <label for="addess" class="form-label"> Address :</label>
+                    <input type="text" class="form-control" id="addess" placeholder="Enter Your Home Address">
+                </div>
+
+                <button type="button" class="btn mx-4 mt-4 fw-semibold" style="width: 550px; background-color:#1275e8;">Save Customer</button>
+            </div>
+            <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow:0 0 5px 0;">
+                <div class="title-bar" style="background-color: #0a53be; height: 45px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                    <h3 class="fw-semibold fs-5 m-0" style="padding: 10px; color: white">Renew | Delete |Search Customer</h3>
+                </div>
+
+                <form class="d-flex pt-3 ps-4" role="search" style="width: 557px">
+                    <input type="search" class="form-control me-2" placeholder="search" aria-label="Search">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true" style="margin-right: 7px">
+                        ID
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">C001</a></li>
+                            <li><a class="dropdown-item" href="#">C002</a></li>
+                            <li><a class="dropdown-item" href="#">C003</a></li>
+                        </ul>
+                    </div>
+                    <button class="btn" type="submit" style="background-color:#0a53be; left: 22px; color: white">
+                        Search</button>
+                </form>
+
+                <div class="mb-3 w-75 px-4 pt-2 d-inline-block">
+                    <label for="cusId" class="form-label">Customer Id :</label>
+                    <input type="text" class="form-control" id="cusId" placeholder="ID">
+                </div>
+
             </div>
         </div>
     </div>
