@@ -140,7 +140,7 @@ function setCusTextField(id,name,salary,address){
     $('#update-address').val(address);
 }
 
-/****** Customer regular expressions ******/
+
 const regExId = /^(C00-)[0-9]{1,3}$/;
 const regCusName = /^[A-z ]{4,20}$/;
 const regExSalary = /^\d{0,9}(\.\d{1,4})?$/;
@@ -250,7 +250,6 @@ function clearCusTexts(){
     customerValidity();
 }
 
-/****** Customer Update ******/
 let customerValidationsForUpdate = [];
 customerValidationsForUpdate.push({reg:regExId, field: $('#update-cusId'),error:'Item Code Pattern Is Wrong : C00-001'});
 customerValidationsForUpdate.push({reg:regCusName, field: $('#update-cusName'),error:'Name Pattern Is Wrong : A-z'});

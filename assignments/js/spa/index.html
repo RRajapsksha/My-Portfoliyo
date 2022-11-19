@@ -31,13 +31,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a id="dashboard-btn" class="nav-link" href="#">Dashboard</a>
-                    <a id="customer-btn" class="nav-link" href="#">Customers</a>
-                    <a id="order-btn" class="nav-link" href="#">Orders</a>
-                    <a id="item-btn" class="nav-link" href="#">Items</a>
-
+                    <a id="dashboard-btn" class="nav-link" href="#" style="color: #0a53be">Dashboard</a>
+                    <a id="customer-btn" class="nav-link" href="#" style="color: #0a53be">Customers</a>
+                    <a id="order-btn" class="nav-link" href="#" style="color: #0a53be">Orders</a>
+                    <a id="item-btn" class="nav-link" href="#" style="color: #0a53be">Items</a>
                 </div>
-            </div>
+                </div>
         </div>
     </nav>
 </header>
@@ -102,6 +101,8 @@
 
 
     <!--Order Content-->
+
+
     <div class="container-fluid position-relative order" style="top: -52px; display: none">
         <div class="page-title p-3">
             <img src="../../../assignments/css/frameWork/pos/assests/images/orders.png" alt="orders" width="32" height="32" class="d-inline-block">
@@ -276,17 +277,17 @@
     </div>
 
     <!-- Item content -->
-    <div  class="container-fluid position-relative item" style="top: -52px; display: none">
+    <div class="container-fluid position-relative order" style="top: -52px; display: none">
         <div class="page-title p-3">
             <img src="../../../assignments/css/frameWork/pos/assests/images/item.png" alt="items" width="32" height="32" class="d-inline-block">
-            <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Item</h1>
+            <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Items</h1>
         </div>
     </div>
 
     <div class="container-fluid position-relative item" style="bottom: 35px; display: none">
         <div class="row">
             <div class="col-lg-6 mt-3">
-                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+                <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow: 0 1px 10px 1px;">
                     <div class="title-bar" style="background-color: #0a53be; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
                         <h3 class="fw-semibold fs-5 m-0" style="padding: 10px; color:white">Add New Item</h3>
                     </div>
@@ -392,7 +393,9 @@
             </div>
         </div>
 
+
         <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
+
             <table class="table table-hover">
                 <thead class="table-warning">
                 <th scope="col">Item Code</th>
@@ -515,7 +518,7 @@
             </div>
         </div>
 
-        <!--Customer table-->
+
         <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px;">
             <table class="table table-hover">
                 <thead class="table-warning">
@@ -536,8 +539,6 @@
 <!-- import jquery -->
 
 <script src="assests/bootstrap/js/jquery-3.6.1.min.js"></script>
-
-<!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.all.min.js"></script>-->
 
 <!-- import Index controller js -->
 <script src="controller/IndexController.js"></script>
