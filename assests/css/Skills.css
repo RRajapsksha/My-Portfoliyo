@@ -46,6 +46,44 @@
     top: 35px;
     bottom: 40px;
     background: #1C5270;
-    border-radius: 0;
 
+}
+.Skills_rec1{
+    position: absolute;
+    width: 180px;
+    height: 175px;
+    left: 500px;
+    top: 192px;
+    bottom: 40px;
+    background: #1C5270;
+}
+
+.Skills_rec2{
+    position: absolute;
+    width: 180px;
+    height: 175px;
+    left: 900px;
+    top: 192px;
+    bottom: 40px;
+    background: #1C5270;
+}
+
+.Skills_rec3{
+    position: relative;
+    width: 180px;
+    height: 175px;
+    left: 100px;
+    top: 70px;
+    bottom: 40px;
+    background: #1C5270;
+}
+
+.Skills_rec4{
+    position: absolute;
+    width: 180px;
+    height: 175px;
+    left: 500px;
+    top: 400px;
+    bottom: 40px;
+    background: #1C5270;
 }
