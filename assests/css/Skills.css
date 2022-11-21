@@ -16,6 +16,7 @@
 
     position: absolute;
     right: 650px;
+    top: 200px;
 
 }
 
@@ -23,15 +24,28 @@
 
     position: absolute;
     right: 250px;
+    top: 200px;
 
 }
 
 .mysql{
-    bottom: 1100px;
-    right: 1000px;
-    top: 100px;
+    position:absolute;
+    right: 1048px;
+    top: 410px;
+}
+.intellij{
+
+    position: absolute;
+    right: 650px;
+    top: 410px;
+
 }
 
+.hibernate{
+    position: absolute;
+    right: 250px;
+    top: 410px;
+}
 .skills_container{
     margin-left: 8%;
     margin-top: 5%;
@@ -83,6 +97,16 @@
     width: 180px;
     height: 175px;
     left: 500px;
+    top: 400px;
+    bottom: 40px;
+    background: #1C5270;
+}
+
+.Skills_rec5{
+    position: absolute;
+    width: 180px;
+    height: 175px;
+    left: 900px;
     top: 400px;
     bottom: 40px;
     background: #1C5270;
