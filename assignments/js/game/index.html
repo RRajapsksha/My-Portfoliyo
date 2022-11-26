@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
     <meta charset="UTF-8">
     <title>Game</title>
 
-    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+    </style>
 </head>
-<body class="body">
+
+<body class="body" onload="idleAnimationStart();" onkeypress="keyCheck(event);" >
 
     <div class="background">
 
+        <h1 class="RedHat">Red Hat Boy</h1>
+        <img src= "assets/images/Idle(1).png" class="boy" id="boy"/>
+
     </div>
+
+    <script src="assets/js/script.js"></script>
+
 </body>
 </html>
