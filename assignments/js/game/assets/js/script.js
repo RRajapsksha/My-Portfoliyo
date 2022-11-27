@@ -1,5 +1,7 @@
 var boy = document.getElementById("boy");
 
+// Idle Animation
+
 var idleImageNumber = 1;
 var idleAnimationNumber = 0;
 
@@ -7,7 +9,7 @@ function idleAnimation() {
 
     idleImageNumber=idleImageNumber+1;
 
-    if (idleImageNumber === 11){
+    if (idleImageNumber == 11){
 
         idleImageNumber = 1;
     }
@@ -21,6 +23,8 @@ function idleAnimationStart() {
 
     idleAnimationNumber=setInterval(idleAnimation,200);
 }
+
+// Run Animation
 
 runImageNumber=1;
 runAnimationNumber=0;
@@ -43,6 +47,7 @@ function runAnimationStart() {
     clearInterval(idleAnimationNumber);
 
 }
+// jump Animation
 
 jumpImageNumber = 1;
 jumpAnimationNumber = 0;
@@ -84,13 +89,13 @@ function keyCheck(event) {
     // space = 32
     var keyCode = event.which;
 
-    if (keyCode === 13){
+    if (keyCode == 13){
 
-        if (runAnimationNumber === 0){
+        if (runAnimationNumber == 0){
             runAnimationStart();
         }
 
-        if (moveBackgroundAnimationId === 0){
+        if (moveBackgroundAnimationId == 0){
             moveBackgroundAnimationId = setInterval(moveBackground,100);
         }
     }
@@ -100,7 +105,7 @@ function keyCheck(event) {
             jumpAnimationStart();
         }
 
-        if (moveBackgroundAnimationId === 0){
+        if (moveBackgroundAnimationId == 0){
             moveBackgroundAnimationId = setInterval(moveBackground,100);
         }
     }
@@ -116,4 +121,32 @@ function moveBackground() {
     document.getElementById("background").style.backgroundPositionX = backgroundImagePositionX+"px";
 
 }
+boxMarginLeft = 1040;
+
+function createBoxes() {
+    for (var i =0;i<=10;i++){
+        var box=document.createElement("div");
+        box.className = "box";
+        document.getElementById("background").appendChild(box);
+        box.style.marginLeft = boxMarginLeft + "px";
+
+        // boxMarginLeft =boxMarginLeft +1000;
+
+        if (i <5){
+            boxMarginLeft = boxMarginLeft + 500;
+        }
+
+        if (i>=5){
+            boxMarginLeft = boxMarginLeft + 250;
+        }
+        }
+
+
+
+}
+
+
+
+
+
 

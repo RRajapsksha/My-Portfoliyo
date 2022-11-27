@@ -8,6 +8,8 @@
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
 }
 
 .boy{
@@ -27,4 +29,12 @@
     line-height: 155px;
     color: #ffffff;
     position:absolute;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    margin-top: 400px;
 }
