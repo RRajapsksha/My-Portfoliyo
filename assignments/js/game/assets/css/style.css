@@ -3,6 +3,7 @@
 }
 
 .background {
+
     width: 100%;
     height: 100vh;
     background-image: url("../images/background.jpg");
@@ -13,28 +14,51 @@
 }
 
 .boy{
-    height: 307px;
-    margin-top: 307px;
+
+    height: 280px;
+    margin-top: 240px;
     position: absolute;
 }
 
 .RedHat{
+
     width: 36vw;
     height: 19vh;
     left: 500px;
     top: 0;
-    font-family: "Yu Gothic UI Semibold", serif;
+    font-family: "Agency FB", monospace;
     font-weight: 400;
-    font-size: 61px;
+    font-size: 70px;
     line-height: 155px;
     color: #ffffff;
     position:absolute;
+
 }
 
 .box{
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 250px;
+    height: 300px;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 350px;
+    background-image: url("../images/ComplexRegalGelding-max-1mb.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.scoreBox{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1200px;
+    background-color: #88c946;
+    border-radius: 50%;
+
+}
+.score{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 1220px;
+    margin-top: 540px;
+    position: absolute;
 }
