@@ -21,7 +21,7 @@ function idleAnimation() {
 
 function idleAnimationStart() {
 
-    idleAnimationNumber=setInterval(idleAnimation,200);
+    idleAnimationNumber=setInterval(idleAnimation,100);
 }
 
 // Run Animation
@@ -33,7 +33,7 @@ function runAnimation() {
 
     runImageNumber = runImageNumber+1;
 
-    if (runImageNumber===9){
+    if (runImageNumber==9){
         runImageNumber=1;
     }
 
@@ -51,19 +51,19 @@ function runAnimationStart() {
 
 jumpImageNumber = 1;
 jumpAnimationNumber = 0;
-boyMarginTop = 240;
+boyMarginTop = 340;
 
 function jumpAnimation() {
 
     jumpImageNumber = jumpImageNumber +1;
 
     if (jumpImageNumber <= 6){
-        boyMarginTop = boyMarginTop -30;
+        boyMarginTop = boyMarginTop - 35;
         boy.style.marginTop = boyMarginTop + "px";
     }
 
     if (jumpImageNumber >= 7){
-        boyMarginTop = boyMarginTop +40;
+        boyMarginTop = boyMarginTop + 35;
         boy.style.marginTop = boyMarginTop + "px";
     }
 
@@ -98,10 +98,10 @@ function keyCheck(event) {
         }
 
         if (moveBackgroundAnimationId == 0) {
-            moveBackgroundAnimationId = setInterval(moveBackground, 200);
+            moveBackgroundAnimationId = setInterval(moveBackground, 100);
         }
         if (boxAnimationId == 0) {
-            boxAnimationId = setInterval(boxAnimation, 200);
+            boxAnimationId = setInterval(boxAnimation, 100);
         }
     }
 
@@ -111,16 +111,16 @@ function keyCheck(event) {
             jumpAnimationStart();
         }
 
-    if (moveBackgroundAnimationId == 0) {
-        moveBackgroundAnimationId = setInterval(moveBackground, 200);
-    }
-    if (boxAnimationId == 0) {
-        boxAnimationId = setInterval(boxAnimation, 200);
-    }
+        if (moveBackgroundAnimationId == 0) {
+            moveBackgroundAnimationId = setInterval(moveBackground, 100);
+        }
+        if (boxAnimationId == 0) {
+            boxAnimationId = setInterval(boxAnimation, 100);
+        }
 
+    }
 }
 
-}
 
 var backgroundImagePositionX = 0;
 var moveBackgroundAnimationId = 0;
@@ -166,7 +166,7 @@ function boxAnimation() {
 
         var box = document.getElementById("box"+i);
         var currentMarginLeft = getComputedStyle(box).marginLeft;
-        var newMarginLeft = parseInt(currentMarginLeft)-25;
+        var newMarginLeft = parseInt(currentMarginLeft)-35;
         box.style.marginLeft = newMarginLeft + "px";
 
         if (newMarginLeft >= -110 & newMarginLeft <=100){
